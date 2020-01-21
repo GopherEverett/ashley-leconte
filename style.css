@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Alata|Nanum+Gothic&display=swap');
+
+body {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BNmY3MTRjMjYtNjJiZC00ZDc3LTg5Y2QtZDYwNzFlOTc5ZWQxXkEyXkFqcGdeQXVyMTAwMjQxMzI@._V1_SY1000_SX1250_AL_.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.name {
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    max-height: 10vh;
+    /* background-color: blue; */
+}
+
+.container {
+    display: flex;
+    min-height: 95vh;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nav {
+    /* background-color: blueviolet; */
+    min-height: 90vh;
+    min-width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+li {
+    font-size: 34px;
+    font-family: 'Alata', sans-serif;
+    list-style-type: none;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 1s;
+}
+
+a:hover {
+    color: aqua;
+}
