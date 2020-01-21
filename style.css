@@ -22,6 +22,7 @@ body {
     /* background-color: aqua; */
     justify-content: space-between;
     align-items: flex-end;
+    margin-bottom: 15px;
 }
 .nav {
     /* background-color: blueviolet; */
@@ -33,6 +34,22 @@ body {
     justify-content: center;
     
 } 
+.vid {
+    /* display: flex;
+    justify-content: center; */
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+.vid iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 li {
     font-size: 34px;
     font-family: 'Alata', sans-serif;
@@ -48,4 +65,15 @@ a {
 
 a:hover {
     color: aqua;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        min-height: 95vh;
+        /* background-color: aqua; */
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 15px;
+    }
 }
