@@ -46,20 +46,24 @@ h1 {
     justify-content: center;
 }
 
-.vid {
+/* .vid {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 35px;
     height: 0;
     overflow: hidden;
+} */
+
+.videoPage {
+    background-image: none;
+    background-color: black;
 }
 
-.vid iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 98%;
-    height: 98%;
+.back {
+    color: white;
+    font-family:'Dancing Script', cursive;
+    font-size: 1.8rem;
+    margin-bottom: 5px;
 }
 
 li {
