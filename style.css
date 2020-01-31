@@ -150,4 +150,7 @@ a:hover {
         align-items: flex-end;
         margin-bottom: 15px;
     }
+    h1 {
+        font-size: 45px;
+    }
 }
