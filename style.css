@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
 body {
-    background: url(./headshotcrop.jpeg) no-repeat center center fixed;
+    background: url(./headshotcrop2.jpeg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -40,22 +40,6 @@ h1 {
     align-items: center;
     justify-content: center;
 }
-
-/* video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-} */
-
-/* .vid {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
-    height: 0;
-    overflow: hidden;
-} */
 
 .vid {
     padding-bottom: 10px;
@@ -115,15 +99,6 @@ a:hover {
     color: rgb(168, 168, 168);
 }
 
-/* #contact {
-    height: auto;
-    transition: height 1s;
-}
-
-#contact:hover {
-    height: 70px;
-} */
-
 #contactDiv {
     display: flex;
     flex-direction: column;
@@ -142,7 +117,7 @@ a:hover {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
     .container {
         display: flex;
         min-height: 95vh;
@@ -151,6 +126,6 @@ a:hover {
         margin-bottom: 15px;
     }
     h1 {
-        font-size: 45px;
+        font-size: 50px;
     }
 }
