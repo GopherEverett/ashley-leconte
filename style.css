@@ -50,9 +50,9 @@ h1 {
 }
 
 .videoPage {
-    background-image: none;
-    background-color: black;
-    height: 85vh;
+    /* background-image: none;
+    background-color: black; */
+    height: 95vh;
 }
 
 .back {
