@@ -50,8 +50,7 @@ h1 {
 }
 
 .videoPage {
-    /* background-image: none;
-    background-color: black; */
+    background: url(./headshotblur.jpg) no-repeat center center fixed;
     height: 95vh;
 }
 
@@ -114,8 +113,6 @@ a:hover {
 #contactDiv a {
     color: rgb(185, 253, 253);
 }
-
-
 
 @media screen and (max-width: 750px) {
     .container {
