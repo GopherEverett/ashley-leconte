@@ -12,10 +12,8 @@ body {
     font-family: 'Dancing Script', cursive;
     font-size: 69px;
     font-weight: 900;
-    background-image: url(./motherofpearl.png);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    text-shadow: 1px 1px 0px rgba(150, 150, 150, 1);
+    color: white;
 }
 
 h1 {
