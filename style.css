@@ -40,11 +40,52 @@ h1 {
 }
 
 .vid {
-    padding-bottom: 10px;
+    /* padding-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; */
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    height: 70%;
+}
+
+.back-btn {
+    position: absolute;
+    top: 9%;
+    left: 7%;
+    bottom: 0;
+    right: 0;
+}
+
+@media (max-width: 600px) {
+.back-btn {
+    position: absolute;
+    top: 0;
+    left: 7%;
+    bottom: 0;
+    right: 0;
+}
+.responsive-iframe {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    height: 70%;
+}
 }
 
 .videoPage {
